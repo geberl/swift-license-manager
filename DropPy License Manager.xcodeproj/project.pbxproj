@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A49EBAB71F738C410028DDAD /* CFUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5371F73880000B990A7 /* CFUtil.swift */; };
+		A49EBAB81F738C410028DDAD /* CocoaFobError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5381F73880000B990A7 /* CocoaFobError.swift */; };
+		A49EBAB91F738C410028DDAD /* CocoaFobLicGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5361F73880000B990A7 /* CocoaFobLicGenerator.swift */; };
+		A49EBABA1F738C410028DDAD /* CocoaFobLicVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C53A1F73880000B990A7 /* CocoaFobLicVerifier.swift */; };
+		A49EBABB1F738C410028DDAD /* CocoaFobStringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5391F73880000B990A7 /* CocoaFobStringExt.swift */; };
+		A4B9C5261F7384F000B990A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5251F7384F000B990A7 /* AppDelegate.swift */; };
+		A4B9C5281F7384F000B990A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9C5271F7384F000B990A7 /* ViewController.swift */; };
+		A4B9C52A1F7384F000B990A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B9C5291F7384F000B990A7 /* Assets.xcassets */; };
+		A4B9C52D1F7384F000B990A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B9C52B1F7384F000B990A7 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4B9C5221F7384F000B990A7 /* DropPy License Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DropPy License Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B9C5251F7384F000B990A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4B9C5271F7384F000B990A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4B9C5291F7384F000B990A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4B9C52C1F7384F000B990A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4B9C52E1F7384F000B990A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B9C52F1F7384F000B990A7 /* DropPy_License_Manager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DropPy_License_Manager.entitlements; sourceTree = "<group>"; };
+		A4B9C5361F73880000B990A7 /* CocoaFobLicGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaFobLicGenerator.swift; sourceTree = "<group>"; };
+		A4B9C5371F73880000B990A7 /* CFUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFUtil.swift; sourceTree = "<group>"; };
+		A4B9C5381F73880000B990A7 /* CocoaFobError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaFobError.swift; sourceTree = "<group>"; };
+		A4B9C5391F73880000B990A7 /* CocoaFobStringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaFobStringExt.swift; sourceTree = "<group>"; };
+		A4B9C53A1F73880000B990A7 /* CocoaFobLicVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaFobLicVerifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4B9C51F1F7384F000B990A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4B9C5191F7384F000B990A7 = {
+			isa = PBXGroup;
+			children = (
+				A4B9C5241F7384F000B990A7 /* DropPy License Manager */,
+				A4B9C5351F73857A00B990A7 /* CocoaFob */,
+				A4B9C5231F7384F000B990A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4B9C5231F7384F000B990A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4B9C5221F7384F000B990A7 /* DropPy License Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4B9C5241F7384F000B990A7 /* DropPy License Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A4B9C5251F7384F000B990A7 /* AppDelegate.swift */,
+				A4B9C5271F7384F000B990A7 /* ViewController.swift */,
+				A4B9C5291F7384F000B990A7 /* Assets.xcassets */,
+				A4B9C52B1F7384F000B990A7 /* Main.storyboard */,
+				A4B9C52E1F7384F000B990A7 /* Info.plist */,
+				A4B9C52F1F7384F000B990A7 /* DropPy_License_Manager.entitlements */,
+			);
+			path = "DropPy License Manager";
+			sourceTree = "<group>";
+		};
+		A4B9C5351F73857A00B990A7 /* CocoaFob */ = {
+			isa = PBXGroup;
+			children = (
+				A4B9C5371F73880000B990A7 /* CFUtil.swift */,
+				A4B9C5381F73880000B990A7 /* CocoaFobError.swift */,
+				A4B9C5361F73880000B990A7 /* CocoaFobLicGenerator.swift */,
+				A4B9C53A1F73880000B990A7 /* CocoaFobLicVerifier.swift */,
+				A4B9C5391F73880000B990A7 /* CocoaFobStringExt.swift */,
+			);
+			path = CocoaFob;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4B9C5211F7384F000B990A7 /* DropPy License Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4B9C5321F7384F000B990A7 /* Build configuration list for PBXNativeTarget "DropPy License Manager" */;
+			buildPhases = (
+				A4B9C51E1F7384F000B990A7 /* Sources */,
+				A4B9C51F1F7384F000B990A7 /* Frameworks */,
+				A4B9C5201F7384F000B990A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DropPy License Manager";
+			productName = "DropPy License Manager";
+			productReference = A4B9C5221F7384F000B990A7 /* DropPy License Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4B9C51A1F7384F000B990A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Günther Eberl";
+				TargetAttributes = {
+					A4B9C5211F7384F000B990A7 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A4B9C51D1F7384F000B990A7 /* Build configuration list for PBXProject "DropPy License Manager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4B9C5191F7384F000B990A7;
+			productRefGroup = A4B9C5231F7384F000B990A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4B9C5211F7384F000B990A7 /* DropPy License Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4B9C5201F7384F000B990A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4B9C52A1F7384F000B990A7 /* Assets.xcassets in Resources */,
+				A4B9C52D1F7384F000B990A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B9C51E1F7384F000B990A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A49EBAB71F738C410028DDAD /* CFUtil.swift in Sources */,
+				A49EBAB81F738C410028DDAD /* CocoaFobError.swift in Sources */,
+				A49EBAB91F738C410028DDAD /* CocoaFobLicGenerator.swift in Sources */,
+				A49EBABA1F738C410028DDAD /* CocoaFobLicVerifier.swift in Sources */,
+				A49EBABB1F738C410028DDAD /* CocoaFobStringExt.swift in Sources */,
+				A4B9C5281F7384F000B990A7 /* ViewController.swift in Sources */,
+				A4B9C5261F7384F000B990A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4B9C52B1F7384F000B990A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4B9C52C1F7384F000B990A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4B9C5301F7384F000B990A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4B9C5311F7384F000B990A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A4B9C5331F7384F000B990A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QEZ83PUW72;
+				INFOPLIST_FILE = "DropPy License Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eberl.DropPy-License-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A4B9C5341F7384F000B990A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QEZ83PUW72;
+				INFOPLIST_FILE = "DropPy License Manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eberl.DropPy-License-Manager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4B9C51D1F7384F000B990A7 /* Build configuration list for PBXProject "DropPy License Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B9C5301F7384F000B990A7 /* Debug */,
+				A4B9C5311F7384F000B990A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4B9C5321F7384F000B990A7 /* Build configuration list for PBXNativeTarget "DropPy License Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4B9C5331F7384F000B990A7 /* Debug */,
+				A4B9C5341F7384F000B990A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4B9C51A1F7384F000B990A7 /* Project object */;
+}
