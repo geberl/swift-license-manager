@@ -2,6 +2,8 @@
 
 *Generate and validate license keys.*
 
+![screenshot](https://raw.githubusercontent.com/geberl/swift-license-manager/master/screenshot.png)
+
 ## Note
 
 This was originally written while [DropPy](https://github.com/geberl/swift-droppy) was a commercial app and [Fastspring](https://fastspring.com/) was used to purchase licenses.
